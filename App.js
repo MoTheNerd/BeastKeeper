@@ -1,31 +1,18 @@
 import React from 'react';
+import { StackNavigator, } from 'react-navigation';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <View>
-          // this will be the main view controller
-
-          <Text>
-            BeastKeeper
-          </Text>
+import HomeView from './views/HomeView';
+import CalendarView from './views/CalendarView';
+import AnimalView from './views/AnimalView';
+import ProfileView from './views/ProfileView';
 
 
-        </View>
-
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    top: 50,
-    //justifyContent: 'center',
-  },
+const NavApp = StackNavigator({
+  HomeV: { screen: HomeView },
+  ProfileV: { screen: ProfileView },
+  AnimalV: {screen: AnimalView},
+  CalendarV: {screen: CalendarView},
 });
+
+export default NavApp;
