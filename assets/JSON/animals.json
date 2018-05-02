@@ -3,8 +3,8 @@
     "_id": "5ae81654105e229d8c1811e6",
     "index": 0,
     "picture": [
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32"
+      "https://upload.wikimedia.org/wikipedia/commons/9/9f/Giraffe_standing.jpg",
+      "https://images.pexels.com/photos/67552/giraffe-tall-mammal-africa-67552.jpeg?cs=srgb&dl=animal-animal-photography-giraffe-67552.jpg&fm=jpg"
     ],
     "name": "Grant",
     "owner": "Barbra",
@@ -16,8 +16,8 @@
     "_id": "5ae81654ed5ea87646e9e0cf",
     "index": 1,
     "picture": [
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32"
+      "https://www.maxpixel.net/static/photo/1x/Baby-Animal-Mouse-Animal-2739835.jpg",
+      "https://c.pxhere.com/photos/26/9e/mouse_nature_button_eyes-1283058.jpg!d"
     ],
     "name": "Jill",
     "owner": "Yates",
@@ -29,9 +29,9 @@
     "_id": "5ae816544a3365773d41d246",
     "index": 2,
     "picture": [
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32"
+      "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg",
+      "https://www.maxpixel.net/static/photo/1x/Muscle-Animals-White-Cow-Black-And-White-Black-1017684.jpg",
+      "http://res.freestockphotos.biz/pictures/10/10066-close-up-of-a-black-and-white-cow-pv.jpg"
     ],
     "name": "Michele",
     "owner": "John",
@@ -43,8 +43,8 @@
     "_id": "5ae81654cb19b5ec7414b4f6",
     "index": 3,
     "picture": [
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32"
+      "https://upload.wikimedia.org/wikipedia/commons/0/04/Porcupine_NPS11952.jpg",
+      "https://cdn.pixabay.com/photo/2014/11/06/12/46/porcupines-519145_960_720.jpg"
     ],
     "name": "Ray",
     "owner": "Nadia",
@@ -56,9 +56,9 @@
     "_id": "5ae8165401d906b2544d08ee",
     "index": 4,
     "picture": [
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32"
+      "https://cdn.pixabay.com/photo/2018/01/11/21/37/squirrel-3076987_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2014/10/18/22/26/squirrel-493790_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2018/01/11/21/39/squirrel-3076989_960_720.jpg"
     ],
     "name": "Jennings",
     "owner": "Kemp",
@@ -70,8 +70,8 @@
     "_id": "5ae81654dc9a26670ff280e4",
     "index": 5,
     "picture": [
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32"
+      "https://cdn.pixabay.com/photo/2018/04/29/00/24/dog-3358695_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2018/04/29/00/46/dog-3358743_960_720.jpg"
     ],
     "name": "Kristi",
     "owner": "Clemons",
@@ -83,8 +83,8 @@
     "_id": "5ae81654f38849fbbd9b584a",
     "index": 6,
     "picture": [
-      "http://placehold.it/32x32",
-      "http://placehold.it/32x32"
+      "https://cdn.pixabay.com/photo/2017/12/26/16/09/lion-3040797_960_720.jpg",
+      "https://cdn.pixabay.com/photo/2018/04/13/21/24/lion-3317670_960_720.jpg"
     ],
     "name": "Evangeline",
     "owner": "Valarie",
