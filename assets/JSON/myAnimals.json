@@ -1,0 +1,43 @@
+[
+    {
+      "_id": "5ae944198dc11dd24702c1c3",
+      "index": 0,
+      "picture": [
+        "https://c1.staticflickr.com/1/735/32901852082_38ee69309d_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Fox_study_6.jpg/399px-Fox_study_6.jpg"
+      ],
+      "name": "Jasmine",
+      "owner": "Mohammad",
+      "weight": "22.7 kg",
+      "born": "Thursday, May 11, 2017 9:42 PM",
+      "funFact": "Hello, fun fact, my owner is in Electrical Engineering!"
+    },
+    {
+      "_id": "5ae94419e31ca13785e1241f",
+      "index": 1,
+      "picture": [
+        "https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=adorable-animal-cat-20787.jpg&fm=jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg",
+        "https://c.pxhere.com/photos/be/84/animal_cat_close_up_fangs_feline_pet_tabby_yawning-984639.jpg!d"
+      ],
+      "name": "Amie",
+      "owner": "Mohammad",
+      "weight": "16.94 kg",
+      "born": "Thursday, May 5, 2016 7:27 AM",
+      "funFact": "Hello! I have a twin!"
+    },
+    {
+      "_id": "5ae944194036e8353f12346b",
+      "index": 2,
+      "picture": [
+        "https://c1.staticflickr.com/9/8505/8526324984_5dcd9ef27f_b.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pembroke_Welsh_Corgi_Puppy.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/45/Pembroke_Welsh_Corgi.jpg"
+      ],
+      "name": "Atkins",
+      "owner": "Mohammad",
+      "weight": "20.41 kg",
+      "born": "Saturday, January 16, 2016 9:49 PM",
+      "funFact": "I know how to play chess!"
+    }
+  ]
