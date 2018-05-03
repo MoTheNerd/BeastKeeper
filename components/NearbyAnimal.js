@@ -9,6 +9,17 @@ export default class NearbyAnimal extends React.Component {
     computeAnimal(){
 
         return(
+            <View style={{
+                alignItems: 'center',
+            }}>
+            <TouchableOpacity style={{
+                marginRight: 20,
+                width: 100,
+                height: 100,
+                borderRadius: 50,
+            }} onPress={()=> {
+                console.log('oof I was touched!');
+            }}>
             <ImageBackground source={{
                 uri: animals[this.props.children].picture[0]
                 }}
@@ -16,35 +27,37 @@ export default class NearbyAnimal extends React.Component {
                     flex: 1,
                     flexDirection: 'column',
                     justifyContent: 'flex-end',
+                }}
+                imageStyle={{
+                    borderRadius: 50,
                 }}>
-                <View style={{backgroundColor:'rgba(0,0,0,0.2)',}}>
-                    <Text style={{
+                <View style={{
+                    borderRadius: 50,
+                    flex: 1,
+                    justifyContent: 'flex-end',
+                    alignItems: 'center',
+                }}>
+                    
+                </View>    
+            </ImageBackground>
+            
+            </TouchableOpacity>
+            <Text style={{
                         color: '#FFF',
                         padding: 5,
                         fontSize: 15,
+                        marginRight: 20,
                     }}>
                         {animals[this.props.children].name}
                     </Text>
-                </View>    
-            </ImageBackground>
+                    </View>
         );
     }
     
     render(){
         console.log(this.props.children);
         return(
-                <TouchableOpacity style={{
-                    backgroundColor: "rgba(0,0,0,0.3)",
-                    marginRight: 20,
-                    width: 70,
-                    height: 70,
-                }} onPress={()=> {
-                    console.log('oof I was touched!');
-                }}>
-                    {this.computeAnimal()}
-                </TouchableOpacity>
-
-
+            this.computeAnimal() 
         );
     }
 

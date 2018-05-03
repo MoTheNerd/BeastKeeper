@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default class HomeView extends React.Component {
     static navigationOptions = {
-      title: 'Welcome',
+      title: '',
     };
     render() {
       const { navigate } = this.props.navigation;

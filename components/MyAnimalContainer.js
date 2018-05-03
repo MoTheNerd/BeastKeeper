@@ -15,9 +15,6 @@ export default class MyAnimalContainer extends React.Component {
         return(
             <View style={{
                 borderRadius: 20,
-                marginLeft: 50,
-                marginRight: 50,
-                backgroundColor: 'rgba(255,255,255,0.6)',
                 flexDirection: 'row',
                 paddingTop: 40,
                 paddingBottom: 40,

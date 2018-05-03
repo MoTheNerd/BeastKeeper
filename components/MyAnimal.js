@@ -16,12 +16,19 @@ export default class MyAnimal extends React.Component {
                     flex: 1,
                     flexDirection: 'column',
                     justifyContent: 'flex-end',
+                }}
+                imageStyle={{
+                    borderRadius: 20,
                 }}>
-                <View style={{backgroundColor:'rgba(0,0,0,0.2)',}}>
+                <View style={{
+                    backgroundColor:'rgba(0,0,0,0.2)',
+                    borderBottomLeftRadius: 20,
+                    borderBottomRightRadius: 20,    
+                }}>
                     <Text style={{
                         color: '#FFF',
-                        padding: 5,
-                        fontSize: 15,
+                        padding: 10,
+                        fontSize: 20,
                     }}>
                         {myAnimals[this.props.children].name}
                     </Text>
@@ -39,6 +46,7 @@ export default class MyAnimal extends React.Component {
                     marginRight: 40,
                     width:160,
                     height: 300-80,
+                    borderRadius: 20,
                 }} onPress={()=> {
                     console.log('oof I was touched!');
                 }}>
