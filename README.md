@@ -1,5 +1,11 @@
 # BeastKeeper
 
+## To get this running on your device:
+> - Install Expo from your respective AppStore (this was tested for iOS)
+> - go to exp://malahdal.me:19000
+> - Allow to open it in Expo
+> - Have Fun!
+
 ### todo:
 > implement first page. Fake some data temporarily. 
 > Needed (page 1):
