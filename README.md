@@ -3,7 +3,7 @@
 ## To get this running on your device:
 > - Install Expo from your respective AppStore (this was tested for iOS)
 > - go to [exp://malahdal.me:19000](exp://malahdal.me:19000) on your device (type it into your browser if link doesn't work)
-> - Allow to open it in Expo
+> - Allow to open it in Expo (note: my server is slow for some reason. Please allow 1 minute of wait time before retrying.)
 > - Have Fun!
 
 ### todo:
