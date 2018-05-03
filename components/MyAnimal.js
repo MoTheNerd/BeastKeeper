@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, TouchableOpacity, Text, ImageBackground } from 'react-native';
 
+
 import myAnimals from '../assets/JSON/myAnimals.json';
 
 export default class MyAnimal extends React.Component {

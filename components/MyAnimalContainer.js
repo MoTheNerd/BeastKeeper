@@ -4,13 +4,13 @@ import { View, ScrollView } from 'react-native';
 import MyAnimal from './MyAnimal';
 import myAnimals from '../assets/JSON/myAnimals.json';
 
-var animals = [];
+var manimals = [];
 
 export default class MyAnimalContainer extends React.Component {
     
     populateData() {
         for (let i = 0; i < myAnimals.length; i++){
-            animals.push(<MyAnimal key={myAnimals[i]._id}>{i}</MyAnimal>)
+            manimals.push(<MyAnimal key={myAnimals[i]._id}>{i}</MyAnimal>)
         }
         return(
             <View style={{
@@ -24,7 +24,7 @@ export default class MyAnimalContainer extends React.Component {
                 paddingLeft: 40,
                 paddingRight: 0,
             }}>
-                { animals }
+                { manimals }
             </View>
         );    
     }
@@ -39,7 +39,6 @@ export default class MyAnimalContainer extends React.Component {
             horizontal={true}
             showsHorizontalScrollIndicator={false}
             >
-            
                 {this.populateData()}
             </ScrollView>
         );

@@ -1,9 +1,8 @@
 import React from 'react'; // swag
 import { StackNavigator, } from 'react-navigation';
 import { StyleSheet, Text, View, Button, Image, ImageBackground } from 'react-native';
-import BackgroundImage from '../components/BackgroundImage';
 import MyAnimalContainer from '../components/MyAnimalContainer';
-
+import NearbyAnimalsContainer from '../components/NearbyAnimalsContainer';
 
 export default class HomeView extends React.Component {
     static navigationOptions = {
@@ -25,6 +24,8 @@ export default class HomeView extends React.Component {
                 <View style={styles.contentContainer}> /*content containter*/>
                     <Text style={styles.titleText}>My Magnificent Beasts</Text>
                     <MyAnimalContainer />
+                    <Text style={[styles.titleText, {marginTop:20,}]} >Beast Finder</Text>
+                    <NearbyAnimalsContainer />
                 </View>
             </ImageBackground>
         </View>
@@ -47,6 +48,7 @@ export default class HomeView extends React.Component {
     },
     titleText:{
         fontSize: 30,
+        fontFamily: 'Didot',
         color:'#FFFFFF',
     },
     backgroundImage: {
