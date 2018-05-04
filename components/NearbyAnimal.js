@@ -18,7 +18,7 @@ export default class NearbyAnimal extends React.Component {
                 height: 100,
                 borderRadius: 50,
             }} onPress={()=> {
-                console.log('oof I was touched!');
+                this.props.navigation.navigate('NAnimalV', {index: this.props.children});
             }}>
             <ImageBackground source={{
                 uri: animals[this.props.children].picture[0]

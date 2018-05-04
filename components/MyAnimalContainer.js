@@ -10,7 +10,7 @@ export default class MyAnimalContainer extends React.Component {
     
     populateData() {
         for (let i = 0; i < myAnimals.length; i++){
-            manimals.push(<MyAnimal key={myAnimals[i]._id}>{i}</MyAnimal>)
+            manimals.push(<MyAnimal navigation={this.props.navigation} key={myAnimals[i]._id}>{i}</MyAnimal>)
         }
         return(
             <View style={{

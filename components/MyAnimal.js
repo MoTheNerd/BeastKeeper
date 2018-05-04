@@ -48,7 +48,7 @@ export default class MyAnimal extends React.Component {
                     height: 300-80,
                     borderRadius: 20,
                 }} onPress={()=> {
-                    console.log('oof I was touched!');
+                    this.props.navigation.navigate('MAnimalV', {index: this.props.children})
                 }}>
                     {this.computeAnimal()}
                 </TouchableOpacity>

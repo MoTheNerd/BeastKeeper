@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, ScrollView, Text } from 'react-native'
+import { View, ScrollView, Text, Button } from 'react-native'
 
 import NearbyAnimal from './NearbyAnimal';
 import animals from '../assets/JSON/animals.json';
@@ -10,7 +10,7 @@ export default class NearbyAnimalsContainer extends React.Component {
     
     populateData(){
         for (let i=0; i < animals.length; i++){
-            nanimals.push(<NearbyAnimal key={animals[i]._id}>{i}</NearbyAnimal>)
+            nanimals.push(<NearbyAnimal navigation={this.props.navigation} key={animals[i]._id}>{i}</NearbyAnimal>)
         }
         return(
             <View style={{  
@@ -38,5 +38,5 @@ export default class NearbyAnimalsContainer extends React.Component {
             </ScrollView>
         );
     }
-
+    
 }
