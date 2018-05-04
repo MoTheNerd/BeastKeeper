@@ -11,24 +11,26 @@
 - If you want to deploy to a real device:
 -  ` $ open ./ios/BeastKeeper.xcodeproj`
 - Fix any codesigning errors there may be
-- press the play button. Sometimes you may encounter an error where it says that you have not codesigned. Makse sure you codesign the Test targets as well. Note: It is an absolute requirement to run `react-native run-ios` before trying this out since doing so adds a few remaining files to the Xcode Project.
+- press the play button. Sometimes you may encounter an error where it says that you have not codesigned. Make sure you codesign the Test targets as well. Note: It is an absolute requirement to run `react-native run-ios` before trying this out since doing so adds a few remaining files to the Xcode Project.
   
 ## Accomplishments:
 - Completed Screen 1 (Home Screen) @hour 6 (expected to finish @hour 8)
+- *everything after this was additional
 - Started Screen 2 (Animal Views [there's two of them])
 - Project end time: 7 hours
 - Anticipated end time: 8 hours
+- Total time spent in research: 2 hours (included in ptoject time)
   
 ## Decisions made during coding:
 - Split Assets/Components/Views to maintain organized code
-- utilization of navigation-stack instead of iOS-Navigation
-- switching away from expo after stage 1 prototyping was done
+- Utilized navigation-stack instead of iOS-Navigation to make app universal
+- Switching away from expo after stage 1 prototyping was done
 - Aesthetics:
--  - Title Font used: Didot. Effect given: Fairytale beast vibes
--  - Removed white backgrop (looked ugly)
--  - Rounded corners for My Magnificent Beasts (Card-like look to signify ownership)
--  - round icons for Beast Finder: gives off friendly vibe (used widely for profile pictures on messenger, facebook, instagram, twitter)
--  - Background Image (Home): Cat picture blurred and darkened such that foreground pops out but background is not dull
+-  - Title Font used: Didot. Effect given: fairy tale type vibes relating to beasts 
+-  - Removed white backdrop (looked ugly plus wanted a less cluttered UI)
+-  - Rounded corners for My Magnificent Beasts (Card-like look to signify ownership and create friendly UI)
+-  - round icons for Beast Finder: gives off friendly UI style (used widely for profile pictures on messenger, facebook, instagram, twitter hence signifying humane aspect)
+-  - Background Image (HomeView): Cat picture blurred and darkened such that foreground pops out but background is not dull.
 -  - Background Image (MyAnimalView and NearbyAnimalView): first picture (profile picture) of the Animal with an 80% black overlay.
 -  - Navigation: Swipe back on iOS or press system back button on android (for familiarity purposes)
   
@@ -36,8 +38,8 @@
 - First intro to usage of StackNavigator (used iOS Navigator in the past)
 - Refresher into ReactNative after a year
 - Specific UI differences between Native iOS apps and React-Native apps
-- Rapid prototyping with expo
--
+- Rapid prototyping with Expo
+- More knowledge on OS-specific UI practices
  
 ## Initial goals:
   
@@ -84,6 +86,6 @@
 
 ## Screenshots:
 ![Capture1](https://raw.githubusercontent.com/RoyalKingMomo/BeastKeeper/master/assets/images/IMG_1058.PNG)
-![Capture1](https://raw.githubusercontent.com/RoyalKingMomo/BeastKeeper/master/assets/images/IMG_1060.PNG)
+![Capture2](https://raw.githubusercontent.com/RoyalKingMomo/BeastKeeper/master/assets/images/IMG_1060.PNG)
 
 ## Total time taken total: 7 hours
