@@ -1,12 +1,22 @@
 # BeastKeeper
 
 ## To get this running on your device:
-> - Install Expo from your respective AppStore (this was tested for iOS)
-> - go to [exp://malahdal.me:19000](exp://malahdal.me:19000) on your device (type it into your browser if link doesn't work)
-> - Allow to open it in Expo (note: my server is slow for some reason. Please allow 1 minute of wait time before retrying.)
-> - Have Fun!
+- Open Terminal
+- ` $ git clone https://github.com/RoyalKingMomo/BeastKeeper.git`
+- ` $ cd BeastKeeper`
+- ` $ brew install npm`
+- ` $ npm install`
+- ` $ react-native run-ios # this is for iOS only. The app should work on Android as well however.`
+- This will run the app on a simulator (assuming you're on macOS)
+- If you want to deploy to a real device:
+- ` $ open ./ios/BeastKeeper.xcodeproj`
+- Fix any codesigning errors there may be
+- press the play button. Sometimes you may encounter an error where it says that you have not codesigned. Makse sure you codesign the Test targets as well. Note: It is an absolute requirement to run `react-native run-ios` before trying this out since doing so adds a few remaining files to the Xcode Project.
 
-### todo:
+
+## Initial goals:
+
+### todo (what I expected to complete in 8 hours):
 > implement first page. Fake some data temporarily. 
 > Needed (page 1):
 > - pressable Image with overlayed text with gradient on top (hence UIView is pressable)
@@ -19,6 +29,7 @@
 > - Use JSON for all data. (it's not much tbh...)
 > - Animal Profile is the idea (i.e. once you click My Magnificent beasts post or Beast Finder post)
 > - Profile SECTION should include basic data:
+> **** this is where I am
 > - - body weight (float)+kg
 > - - date of birth (String)
 > - - Owner (String)
@@ -43,3 +54,5 @@
 > - appointments current in a nice light paleish colour
 > - free days in a nice off-white
 > - clicking on an appointment day deletes it and clicking on a free day intoduces a View with Description as text input. Successful text input means make appointment else do nothing.
+
+# Total Time taken so far: 7 hours
