@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>Q5CE94GJRM.org.reactjs.native.example.BeastKeeper</string>
+	<string>7VE8CQ2P35.org.reactjs.native.example.BeastKeeper</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>Q5CE94GJRM.org.reactjs.native.example.BeastKeeper</string>
+		<string>7VE8CQ2P35.org.reactjs.native.example.BeastKeeper</string>
 	</array>
 </dict>
 </plist>
